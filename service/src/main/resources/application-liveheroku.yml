@@ -3,4 +3,6 @@
 # =================================
 spring:
   datasource:
-    url: postgres://pshupynwaxbqes:743ee6146d690cf2ad2027dca4fc1f93c68439f7a0c5f4f4705186ba67a5dbc4@ec2-34-195-69-118.compute-1.amazonaws.com:5432/d7d5t8l9e255v3
+    url: jdbc:postgresql://ec2-34-195-69-118.compute-1.amazonaws.com:5432/d7d5t8l9e255v3
+    username: pshupynwaxbqes
+    password: 743ee6146d690cf2ad2027dca4fc1f93c68439f7a0c5f4f4705186ba67a5dbc4

@@ -7,3 +7,5 @@ spring:
     url: jdbc:tc:mysql://localhost/realmeet
     username: admin
     password: admin
+  flyway:
+    locations: classpath:/db/migration/mysql

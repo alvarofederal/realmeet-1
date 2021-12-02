@@ -4,5 +4,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://ec2-34-195-69-118.compute-1.amazonaws.com:5432/d7d5t8l9e255v3
-    username: pshupynwaxbqes
+    url: jdbc:postgresql://ec2-34-195-69-118.compute-1.amazonaws.com:5432/dcrnps11n1rrce
+    username: kkvbuattqxcmlh
+  flyway:
+    locations: classpath:/db/migration/postgresql
